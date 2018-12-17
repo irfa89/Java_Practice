@@ -2,7 +2,7 @@ package homework;
 
 import java.io.*; 
 
-class Employee implements java.io.Serializable { 
+class Employee1 implements java.io.Serializable { 
 	/**
 	 * 
 	 */
@@ -20,7 +20,7 @@ class Employee implements java.io.Serializable {
 
 public class SerializeDemo { 
 	public static void main(String [] args) {
-		Employee e = new Employee(); 
+		Employee1 e = new Employee1(); 
 		e.name = "Billy Joe"; 
 		e.address = "1121, 46th St., Brooklyn, 11219"; 
 		e.SSN = 11122333; 
